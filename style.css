@@ -1,5 +1,5 @@
 body {
-    background:  rgb(179, 24, 24);
+    background:  black;
     font-family: "Arial";
 }
 
@@ -77,10 +77,10 @@ body {
 .form .form-element .password-policies > div {
     margin: 15px 10px;
     font-weight: 500px;
-    color:#888;
+    color:gray;
     transition:all 300ms ease-in-out;
 }
 
 .form .form-element .password-policies > div.active {
-    color:#111;
+    color:black;
   }
