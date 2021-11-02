@@ -1,3 +1,5 @@
+/** The JavaScript with all of the functions that the project will need.  */
+
 function _id(name){
   return document.getElementById(name);
 }
