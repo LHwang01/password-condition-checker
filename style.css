@@ -1,0 +1,48 @@
+body {
+    background:  rgb(179, 24, 24);
+    font-family: "Arial";
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%, -50%);
+}
+
+.form .form-element input {
+    width: 100%;
+    padding: 10px;
+    font-size: 19px;
+    border: 1px solid black;
+    background: white;
+    box-sizing: border-box;
+    border-radius: 50px;
+    outline: none;
+    text-indent: 10px;
+}
+
+.form .form-element .toggle-password {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 2px;
+    right: 2px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 35px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.form .form-element .toggle-password.active i.fa-eye {
+    display: none;
+}
+
+.form .form-element .toggle-password.active i.fa-eye-slash {
+    display: inline;
+}
+
+.form .form-element .toggle-password i.fa-eye-slash {
+    display: none;
+}
