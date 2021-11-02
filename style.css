@@ -10,6 +10,10 @@ body {
     transform:translate(-50%, -50%);
 }
 
+.form {
+    width: 350px;;
+}
+
 .form .form-element input {
     width: 100%;
     padding: 10px;
@@ -45,4 +49,34 @@ body {
 
 .form .form-element .toggle-password i.fa-eye-slash {
     display: none;
+}
+
+.form .form-element .password-policies {
+    position: relative;
+    top: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90%;
+    padding: 10px;
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 10px;
+    box-sizing: border-box;
+    opacity: 1;
+    overflow: hidden;
+}
+
+.form .form-element .password-policies.active {
+    opacity: 1;
+    padding: 10px;
+    height: 100px;
+}
+
+.form .form-element .password-policies > div {
+    margin: 15px 10px;
+    font-weight: 500px;
+}
+
+.form .form-element .password-policies > div.active {
+
 }
